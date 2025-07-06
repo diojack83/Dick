@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BlackBook Access</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="nav-bar">
+    <a href="index.html">Home</a>
+    <a href="dashboard.html">Marketplace</a>
+    <a href="request.html">Request to Sell</a>
+  </div>
+
+  <h1>Welcome to BlackBook</h1>
+  <div class="label">Adults-Only Bitcoin Marketplace</div>
+  <p>Enter your 4-digit access code:</p>
+  <input type="password" id="accessCode" maxlength="4" placeholder="****">
+  <button onclick="checkCode()">Enter</button>
+  <p id="error" style="color:red;"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
